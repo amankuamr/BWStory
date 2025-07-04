@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #e9ecf3;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.frame {
+  width: 404.8px;
+  height: 703.2px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 0 16px rgba(0,0,0,0.12), 0 1.5px 6px rgba(0,0,0,0.08);
+  border-radius: 16px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+}
+
