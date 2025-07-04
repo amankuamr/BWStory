@@ -1,0 +1,23 @@
+{
+  "name": "bwstory-webapp",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://amankuamr.github.io/BWStories",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "antd": "^5.13.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^7.0.2"
+  }
+}
