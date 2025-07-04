@@ -2,6 +2,7 @@
   "name": "bwstory-webapp",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://amankuamrgithub.io/BWStory",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
